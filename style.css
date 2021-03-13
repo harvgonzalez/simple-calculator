@@ -1,0 +1,26 @@
+
+#calculator-container {
+    background-color: #7289DA;
+    height: 500px;
+    width: 300px;
+    margin: auto;
+}
+.smallContainer{
+    box-sizing: content-box;
+}
+.elements {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+}
+
+.total{
+    display: inline-block;
+    text-align: center;
+    background-color: white ;
+    color: black;
+}
+.visible {
+    display: block;
+}
