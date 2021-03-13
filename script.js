@@ -44,7 +44,6 @@ calculateButton.addEventListener('click', function(){
 })
 
 
-console.log(`${firstValue - secondValue}`);
 
 
 
