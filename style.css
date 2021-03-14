@@ -7,19 +7,19 @@
 }
 .smallContainer{
     box-sizing: content-box;
-}
-.elements {
     display: flex;
     align-items: center;
     flex-direction: column;
     margin: auto;
 }
 
+
 .total{
     display: inline-block;
     text-align: center;
     background-color: white ;
     color: black;
+    border: 1px solid #767676;
 }
 .visible {
     display: block;

@@ -1,4 +1,4 @@
-// button variable and events
+// button variable/ result variable and calculate event
 const calculateButton = document.getElementById('button')
 const result = document.querySelector('.total');
 
@@ -10,7 +10,7 @@ calculateButton.addEventListener('click', function(){
     //second value variable
     const secondValue = parseInt(document.getElementById("secondValue").value);
     // final value
-    let finalValue = "";
+    let finalValue = 0;
 
     // new result
     // operator
